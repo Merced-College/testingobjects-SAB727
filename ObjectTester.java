@@ -16,6 +16,16 @@ public class ObjectTester {
         //only print dogs name
         System.out.println(dog2.getName());
 
+        Cat cat1 = new Cat();
+        System.out.println(cat1);
+
+        Cat cat2 = new Cat("Zeina", 7, "black and white");
+        System.out.println(cat2);
+
+        System.out.println(cat2.getName());
+
+        
+
     }//end main
 
 }//end class
